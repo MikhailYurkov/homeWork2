@@ -6,8 +6,10 @@ public class homeWork {
     public static void main(String[] args) {
 
         from10to20( 1,1 );
+        positiveOrNegative( -1);
+        isNegative( 2);
 
-    }
+        }
 
 
     private static boolean from10to20( int a, int b) {
@@ -24,4 +26,15 @@ public class homeWork {
         }
 
     }
-}
+
+    private static void positiveOrNegative(int x) {
+        if (x >= 0) {
+            System.out.println("Число положительное");
+        } else {
+            System.out.println("Число отрицательное");
+        }
+    }}
+
+    private static void isNegative( int x) {
+
+    }
