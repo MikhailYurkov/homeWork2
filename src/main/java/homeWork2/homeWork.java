@@ -5,10 +5,10 @@ import java.util.concurrent.ThreadLocalRandom;
 public class homeWork {
     public static void main(String[] args) {
 
-//        from10to20( 1,1 );
-//        positiveOrNegative( -1);
-//        isNegative( -1);
-//        stringInQuantity( "GeekBrains",5);
+        from10to20( 1,1 );
+        positiveOrNegative( -1);
+        isNegative( -1);
+        stringInQuantity( "GeekBrains",5);
         leapYear(2000);
         }
 
