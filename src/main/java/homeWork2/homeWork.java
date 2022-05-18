@@ -5,9 +5,10 @@ import java.util.concurrent.ThreadLocalRandom;
 public class homeWork {
     public static void main(String[] args) {
 
-        from10to20( 1,1 );
-        positiveOrNegative( -1);
-        isNegative( -1);
+//        from10to20( 1,1 );
+//        positiveOrNegative( -1);
+//        isNegative( -1);
+        stringInQuantity( "GeekBrains",5);
 
         }
 
@@ -43,5 +44,11 @@ public class homeWork {
         System.out.println("false");
     return false;
     }
+    }
+
+    private static void stringInQuantity(String text, int x) {
+        for (int i = 0; i < x; i++) {
+            System.out.println(text);
+        }
     }
 }
