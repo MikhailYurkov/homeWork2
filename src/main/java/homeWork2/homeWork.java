@@ -7,7 +7,7 @@ public class homeWork {
 
         from10to20( 1,1 );
         positiveOrNegative( -1);
-        isNegative( 2);
+        isNegative( -1);
 
         }
 
@@ -33,8 +33,15 @@ public class homeWork {
         } else {
             System.out.println("Число отрицательное");
         }
-    }}
-
-    private static void isNegative( int x) {
-
     }
+
+    private static boolean isNegative( int x) {
+    if ( x < 0) {
+        System.out.println("true");
+    return true;
+    } else {
+        System.out.println("false");
+    return false;
+    }
+    }
+}
